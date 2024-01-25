@@ -1,0 +1,53 @@
+.accordion {
+  width: 300px;
+  height: 285px;
+}
+.accordion-section {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+.title {
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0px;
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title:hover {
+  color: red;
+}
+
+.content {
+  margin-left: -30px;
+  opacity: 0.8;
+  font-family: Kumbh Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 11px;
+}
+.line {
+  width: 279px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #e8e8ea;
+}
+
+@media screen and (width > 376px) {
+  .accordion-section {
+    width: 350px;
+  }
+  .line {
+    width: 350px;
+  }
+  .accordion {
+    margin-left: 360px;
+  }
+}

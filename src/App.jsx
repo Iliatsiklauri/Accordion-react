@@ -1,11 +1,20 @@
-import './App.css'
+import './App.css';
+import Accordion from './components/Accordion';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-    </>
-  )
-}
+    <div className="wrapper">
+      <div className="boxWrapper">
+        <img src="public\Group 4 (4).svg" alt="" className="img1" />
+        <img src="public\Path Copy (1).svg" alt="" className="img2" />
+        <img src="public\mention_isometric 2 (1).svg" alt="" className="img3" />
+        <img src="public\Group 6 (3).svg" alt="" className="img4" />
+        <img src="public\Group 2 (4).svg" alt="" className="img5" />
 
-export default App
+        <h1>FAQ</h1>
+        <Accordion />
+      </div>
+    </div>
+  );
+};
+export default App;
