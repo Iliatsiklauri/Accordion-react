@@ -13,7 +13,7 @@ const App = () => {
         <h1>FAQ</h1>
         <Accordion />
       </div>
-      <img src="\public\Group 6 (3).svg" alt="" className="img4" />
+      <img src="Group 6 (3).svg" alt="" className="img4" />
     </div>
   );
 };
