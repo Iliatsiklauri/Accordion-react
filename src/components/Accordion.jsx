@@ -22,9 +22,9 @@ const Accordion = () => {
               )}
 
               {selected === i ? (
-                <img src="public\Path 2.png" alt="" style={{ rotate: '180deg' }} />
+                <img src="Path 2.png" alt="" style={{ rotate: '180deg' }} />
               ) : (
-                <img src="public\Path 2.png" alt="" />
+                <img src="Path 2.png" alt="" />
               )}
             </div>
 
