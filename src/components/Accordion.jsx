@@ -11,24 +11,24 @@ const Accordion = () => {
 
   return (
     <div className="accordion">
-      {data.map((obj, i) => (
-        <div>
-          <div className="accordion-section" key={i} onClick={() => toggle(i)}>
+      {data.map((obj, key) => (
+        <div key={key}>
+          <div className="accordion-section" onClick={() => toggle(key)}>
             <div className="title">
-              {selected === i ? (
+              {selected === key ? (
                 <p style={{ color: '#1E1F36', fontWeight: 700 }}>{obj.title}</p>
               ) : (
                 <p>{obj.title}</p>
               )}
 
-              {selected === i ? (
+              {selected === key ? (
                 <img src="Path 2.png" alt="" style={{ rotate: '180deg' }} />
               ) : (
                 <img src="Path 2.png" alt="" />
               )}
             </div>
 
-            {selected === i && (
+            {selected === key && (
               <div className="content">
                 <p>{obj.text}</p>
               </div>

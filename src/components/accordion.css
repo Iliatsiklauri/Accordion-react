@@ -42,7 +42,7 @@
   background: #e8e8ea;
 }
 
-@media screen and (width > 376px) {
+@media screen and (width > 500px) {
   .accordion-section {
     width: 350px;
   }

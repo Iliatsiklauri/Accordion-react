@@ -52,7 +52,7 @@
 .img5 {
   display: none;
 }
-@media screen and (width > 376px) {
+@media screen and (width > 500px) {
   .boxWrapper {
     width: 920px;
     height: 509px;
